@@ -1,3 +1,2 @@
 # container_pairing
-
-This code builds pair of elements from different containers
+This code is for combining the containers. http://en.cppreference.com/w/cpp/concept/Container specifications for containers must hold for this solution to run. Containers such as list, set, vector, deque work with this solution.  However since for std::array container size() function does not hold or for std::stack container begin() function does not hold, these containers will not work with this solution. size() or begin() were among the functions specified in the link.
